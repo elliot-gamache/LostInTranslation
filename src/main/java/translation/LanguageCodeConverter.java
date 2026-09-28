@@ -44,7 +44,7 @@ public class LanguageCodeConverter {
             while (iterator.hasNext()) {
                 String line = iterator.next();
 
-                String[] parts = line.split("\\s+");
+                String[] parts = line.split("\t");
                 String language = parts[0];
                 String languageCode = parts[1];
 
